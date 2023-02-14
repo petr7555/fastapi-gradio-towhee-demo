@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi-gradio-towhee-demo"
+version = "0.1.0"
+description = ""
+authors = ["Petr Janik <peta.janik@email.cz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+towhee = "^0.9.0"
+gradio = "^3.18.0"
+fastapi = {extras = ["all"], version = "^0.92.0"}
+pymilvus = "2.1.3"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
