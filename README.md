@@ -6,10 +6,6 @@
 
 - `poetry install`
 
-## Start Milvus
-
-- `docker compose up -d`
-
 ## Run server
 
 ### Gradio only
@@ -27,5 +23,6 @@
 
 ### Towhee + Gradio
 
+- `docker compose up -d`
 - `poetry run python fill_embeddings.py`
 - `poetry run python towhee_gradio.py`
